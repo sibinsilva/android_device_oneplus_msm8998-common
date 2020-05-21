@@ -216,6 +216,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.vidc.debug.level=1 \
     vendor.swvdec.log.level=1
 
+# Network manager
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.data.iwlan.enable=true
+
 # NFC
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.nfc_nci=nqx.default
