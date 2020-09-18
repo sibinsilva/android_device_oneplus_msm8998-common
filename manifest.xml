@@ -215,11 +215,11 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.vr</name>
+        <name>android.hardware.vibrator</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
-            <name>IVr</name>
+            <name>IVibrator</name>
             <instance>default</instance>
         </interface>
     </hal>
