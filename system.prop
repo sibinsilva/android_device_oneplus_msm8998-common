@@ -87,3 +87,6 @@ persist.radio.is_wps_enabled=true
 persist.radio.sap_silent_pin=1
 persist.radio.sib16_support=1
 persist.radio.videopause.mode=1
+
+# Updater
+ro.block_updater=true
