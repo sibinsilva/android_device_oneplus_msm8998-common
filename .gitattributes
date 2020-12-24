@@ -1,0 +1,2 @@
+*GoogleCamera.apk filter=lfs diff=lfs merge=lfs -text
+GoogleCamera.apk filter=lfs diff=lfs merge=lfs -text
