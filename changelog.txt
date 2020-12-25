@@ -1,0 +1,7 @@
+Switched to Lazy Kernel.
+Moved volume slider to left.
+Inbuilt GCam.
+Inbuilt DotFix v6.0
+Multiple optimizations from my side for better performance.
+Updated graphic drivers.
+Vowifi experimental
