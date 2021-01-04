@@ -26,8 +26,7 @@
 #
 
 import /vendor/etc/init/hw/init.qcom.usb.rc
-import /vendor/etc/init/hw/init.target.displaymodes.rc
-
+import /vendor/etc/init/hw/init.target.devicesettings.rc
 
 on early-init
     mount debugfs debugfs /sys/kernel/debug
