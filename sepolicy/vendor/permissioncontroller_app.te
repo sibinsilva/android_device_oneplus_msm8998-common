@@ -1,1 +1,0 @@
-allow permissioncontroller_app sysfs_kgsl:dir { search };
