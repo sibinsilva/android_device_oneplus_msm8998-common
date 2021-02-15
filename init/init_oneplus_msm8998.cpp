@@ -187,7 +187,7 @@ void vendor_load_properties() {
     // Safetynet Workaround
     property_override("ro.boot.verifiedbootstate", "green");
     property_override("ro.oem_unlock_supported", "0");
-    property_override("ro.build.description", "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys");
-    property_override("ro.build.fingerprint", "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys");
-    property_override("ro.system.build.fingerprint", "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys");
+    property_override("ro.build.description", "google/redfin/redfin:11/RQ1A.210205.004/7038034:user/release-keys");
+    property_override("ro.build.fingerprint", "google/redfin/redfin:11/RQ1A.210205.004/7038034:user/release-keys");
+    property_override("ro.system.build.fingerprint", "google/redfin/redfin:11/RQ1A.210205.004/7038034:user/release-keys");
 }
