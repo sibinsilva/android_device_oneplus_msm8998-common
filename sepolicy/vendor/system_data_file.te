@@ -1,1 +1,2 @@
-allow system_data_file system_data_file:dir { read open };
+allow system_data_file system_data_file:dir { read };
+allow system_data_file system_data_file:file { open };
