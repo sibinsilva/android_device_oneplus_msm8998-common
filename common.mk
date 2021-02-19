@@ -377,11 +377,7 @@ PRODUCT_PACKAGES += \
 
 # Prebuilts
 PRODUCT_PACKAGES += \
-    GoogleCamera
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilts/system/etc/permissions/com.google.android.GoogleCameraEng.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.GoogleCameraEng.xml
-
+    GCamGo
 
 # Privapp Whitelist
 PRODUCT_COPY_FILES += \
