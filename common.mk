@@ -547,10 +547,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
-# Wallpapers
-PRODUCT_PACKAGES += \
-		WallpapersBReel2018
-
+# NezukoOS
+CUSTOM_BUILD_TYPE := OFFICIAL
+NEZUKO_MAINTAINER := Maitreya29
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
