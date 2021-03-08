@@ -73,9 +73,6 @@ function blob_fixup() {
         vendor/lib64/hw/fingerprint.goodix.so | vendor/lib/hw/fingerprint.goodix.so )
             sed -i 's|\x00goodix.fingerprint\x00|\x00fingerprint\x00\x00\x00\x00\x00\x00\x00\x00|' "${2}"
             ;;
-    product/lib64/libdpmframework.so )
-        sed -i "s/libhidltransport.so/libcutils-v29.so\x00\x00\x00/" "${2}"
-    ;;
     esac
 }
 
