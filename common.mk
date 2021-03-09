@@ -548,7 +548,7 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # NezukoOS
-CUSTOM_BUILD_TYPE := OFFICIAL
+NEZUKO_BUILD_TYPE := OFFICIAL
 NEZUKO_MAINTAINER := Maitreya29
 
 # Enable updating of APEXes
