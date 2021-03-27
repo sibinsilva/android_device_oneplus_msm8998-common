@@ -1,0 +1,22 @@
+[
+  {
+    "repository": "PotatoDevices/vendor_oneplus_msm8998-common",
+    "target_path": "vendor/oneplus/msm8998-common",
+    "branch": "dumaloo-release"
+  },
+  {
+    "repository": "PotatoDevices/vendor_oneplus_dumpling",
+    "target_path": "vendor/oneplus/dumpling",
+    "branch": "dumaloo-release"
+  },
+  {
+    "repository": "PotatoDevices/vendor_oneplus_cheeseburger",
+    "target_path": "vendor/oneplus/cheeseburger",
+    "branch": "dumaloo-release"
+  },
+  {
+    "repository": "PotatoDevices/kernel_oneplus_msm8998",
+    "target_path": "kernel/oneplus/msm8998",
+    "branch": "dumaloo-release"
+  }
+]
