@@ -77,6 +77,23 @@
             android:theme="@style/AppTheme">
         </activity>
 
+        <activity
+            android:name="com.oneplus.extras.DeviceSettings.thermal.ThermalActivity"
+            android:exported="true"
+            android:label="@string/thermal_title"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.oneplus.extras.DeviceSettings.thermal.ThermalActivity"
+            android:permission="ThermalService">
+        </service>
+
         <receiver android:name="com.oneplus.extras.DeviceSettings.Startup" >
             <intent-filter android:priority="100" >
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -166,28 +183,5 @@
                 <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER" />
             </intent-filter>
         </provider>
-
-        <activity
-            android:name=".thermal.ThermalActivity"
-            android:label="@string/thermal_title"
-            android:theme="@style/Theme.Main">
-            <intent-filter>
-                <action android:name="com.android.settings.action.IA_SETTINGS" />
-            </intent-filter>
-            <meta-data
-                android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.battery" />
-            <meta-data
-                android:name="com.android.settings.summary"
-                android:resource="@string/thermal_summary" />
-            <meta-data
-                android:name="com.android.settings.order"
-                android:value="1" />
-        </activity>
-
-        <service
-            android:name=".thermal.ThermalService"
-            android:permission="ThermalService">
-        </service>
     </application>
 </manifest>

@@ -41,6 +41,23 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="thermalshit"
+        android:title="@string/thermal_title">
+
+        <Preference
+            android:key="thermal_category"
+            android:title="@string/thermal_title"
+            android:icon="@drawable/ic_settings_device"
+            android:summary="@string/thermal_summary"
+            android:persistent="false" >
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.oneplus.extras.DeviceSettings"
+                    android:targetClass="com.oneplus.extras.DeviceSettings.thermal.ThermalActivity" />
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="gestures"
         android:title="@string/screen_gestures_panel_title">
 
