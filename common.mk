@@ -134,6 +134,10 @@ PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant.antradio_library
 
+# Board
+PRODUCT_BOARD_PLATFORM := msm8998
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl \
