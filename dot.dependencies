@@ -1,10 +1,10 @@
 [
   {
     "repository": "proprietary_vendor_oneplus",
-    "target_path": "vendor/oneplus",
+    "target_path": "vendor/oneplus"
   },
   {
     "repository": "android_kernel_oneplus_msm8998",
-    "target_path": "kernel/oneplus/msm8998",
+    "target_path": "kernel/oneplus/msm8998"
   }
 ]
