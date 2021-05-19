@@ -178,13 +178,18 @@ PRODUCT_PACKAGES += \
     memtrack.msm8998 \
     libdisplayconfig \
     libhwc2on1adapter \
+    libdisplayconfig.qti \
+    libdisplayconfig.qti.vendor \
     libtinyxml \
     libqdMetaData \
     libqdMetaData.system
 
 PRODUCT_PACKAGES += \
-    vendor.display.config@1.9 \
-    vendor.display.config@1.9_vendor
+    vendor.display.config@2.0 \
+    vendor.display.config@2.0.vendor
+
+# Dex
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 
 # Doze
 PRODUCT_PACKAGES += \
@@ -484,7 +489,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libaacwrapper \
     libnl \
-    libshim_wfdmmsink
+    libshim_wfdmmsink \
+    libstagefright_enc_common
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
