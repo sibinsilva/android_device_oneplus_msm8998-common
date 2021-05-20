@@ -510,8 +510,5 @@ PRODUCT_BOOT_JARS += \
 NEZUKO_BUILD_TYPE := OFFICIAL
 NEZUKO_MAINTAINER := Maitreya29
 
-# Inherit from oppo-common
-$(call inherit-product, device/oppo/common/common.mk)
-
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
