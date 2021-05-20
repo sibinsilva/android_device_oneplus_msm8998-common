@@ -506,6 +506,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# NezukoOS
+NEZUKO_BUILD_TYPE := OFFICIAL
+NEZUKO_MAINTAINER := Maitreya29
+
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
 
