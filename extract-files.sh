@@ -82,6 +82,9 @@ function blob_fixup() {
         lib/libwfdmmsink.so)
             "${PATCHELF}" --add-needed "libshim_wfdmmsink.so" "${2}"
             ;;
+	lib64/libwfdnative.so)
+	    "${PATCHELF}" --remove-needed "android.hidl.base@1.0.so" "${2}"
+            ;;
         vendor/etc/permissions/com.fingerprints.extension.xml )
             sed -i "s/\/system\/framework\//\/vendor\/framework\//g" "${2}"
             ;;
